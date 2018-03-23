@@ -1,1 +1,3 @@
 Welcome to this Git Project. We are in the baby stages.
+
+Edit: Using the edit button.

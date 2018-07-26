@@ -10,10 +10,10 @@ Ka?dy algorytm i struktura danych zawiera osobny plik README
 wraz z powi?zanymi wyja?nieniami i odno?nikami do dalszego czytania (w??cznie z tymi do YouTube videos).
 
 _Read this in other languages:_
+[_English_](https://github.com/trekhleb/javascript-algorithms/)
 [简体中文](README.zh-CN.md),
 [繁體中文](README.zh-TW.md),
-[한국어](README.ko-KR.md),
-[Polski] (README.pl-PL.md)
+[한국어](README.ko-KR.md)
 
 > Jeste?my w trakcie pisania ksi??ki, kt�ra w jasny i specyficzny spos�b, wyja?ni g?�wne algorytmy. Je?eli chcesz dosta? powiadomienie o tym kiedy ksi??ka “JavaScript Algorithms� zostanie wydana,[kliknij tutaj](https://upscri.be/402324/).
 
@@ -86,7 +86,7 @@ znajd? wszystkie kombinacje, kt�re tworz? okre?lon? sum?
   * `A` [Dopasowanie Wyra?e? Regularnych](src/algorithms/string/regular-expression-matching)
 * **Szukanie**
   * `B` [Wyszukiwanie Liniowe](src/algorithms/search/linear-search)
-  * `B` [Jump Search](src/algorithms/search/jump-search) (or Block Search) - szukaj w posortowanej tablicy
+  * `B` [Jump Search](src/algorithms/search/jump-search) (lub Przeszukiwanie Bloku) - szukaj w posortowanej tablicy
   * `B` [Wyszukiwanie Binarne](src/algorithms/search/binary-search) - szukaj w posortowanej tablicy
   * `B` [Wyszukiwanie Interpolacyjne](src/algorithms/search/interpolation-search) - szukaj w r�wnomiernie roz?o?onej, posortowanej tablicy
 * **Sortowanie**
@@ -102,7 +102,7 @@ znajd? wszystkie kombinacje, kt�re tworz? okre?lon? sum?
 * **Drzewa**
   * `B` [Przeszukiwanie w g??b](src/algorithms/tree/depth-first-search) (DFS)
   * `B` [Przeszukiwanie wszerz](src/algorithms/tree/breadth-first-search) (BFS)
-* **Graphs**
+* **Grafy**
   * `B` [Przeszukiwanie w g??b](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [Przeszukiwanie wszerz](src/algorithms/graph/breadth-first-search) (BFS)
   * `B` [Algorytm Kruskala](src/algorithms/graph/kruskal) - znalezienie Minimalnego Drzewa Opinaj?cego (MST) dla wa?onego nieukierunkowanego wykresu

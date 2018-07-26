@@ -1,4 +1,4 @@
-# JavaScript Algorytmy i Stgruktury Danych
+# JavaScript Algorytmy i Struktury Danych
 
 [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
@@ -54,9 +54,8 @@ Algorytm jest to sko?czony ci?g jasno zdefiniowanych czynno?ci, koniecznych do w
   * `B` [Manipulacja Bitami](src/algorithms/math/bits) - ustaw / uzyskaj / aktualizuj / usuwaj bity, mno?enie / dzielenie przez dwa, tworzenie negatywów itp.
   * `B` [Silna](src/algorithms/math/factorial) 
   * `B` [Ci?g Fibonacciego](src/algorithms/math/fibonacci)
-  * `B` [Test Pierwszorz?dno?ci]
-(src/algorithms/math/primality-test) (trial division method)
-  * `B` [Algorytm Euclideana](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
+  * `B` [Test Pierwszorz?dno?ci](src/algorithms/math/primality-test) (metoda podzia?u na próby)
+  * `B` [Algorytm Euclideana](src/algorithms/math/euclidean-algorithm) - obliczy? Najwi?kszy Wspólny Dzielnik (GCD)
   * `B` [Najmniejsza Wspólna Wielokrotno??](src/algorithms/math/least-common-multiple) (LCM)
   * `B` [Sito Eratosthenes-a](src/algorithms/math/sieve-of-eratosthenes) - znajdowanie wszystkich liczb pierwszych do okre?lonego limitu
   * `B` [Jest Pot?g? Dwójki](src/algorithms/math/is-power-of-two) - sprawd?, czy liczba jest pot?g? dwóch (algorytmy naiwne i bitowe)

@@ -119,7 +119,7 @@ znajd? wszystkie kombinacje, które tworz? okre?lon? sum?
   * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - najkrótsza ?cie?ka która odwiedza ka?de miasto i wraca miasta pocz?tkuj?cego
 * **Niezkategorizowane**
   * `B` [Wie?a Hanoi](src/algorithms/uncategorized/hanoi-tower)
-  * `B` [Kwadratowa Matryca Obrotu](src/algorithms/uncategorized/square-matrix-rotation) - in-place algorithm
+  * `B` [Kwadratowa Matryca Obrotu](src/algorithms/uncategorized/square-matrix-rotation) - algorytm w miejscu
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game) - cofanie, dynamiczne programowanie (od góry do do?u + od do?u do góry) i przyk?ady chciwego  
   * `B` [Unikatowe ?cie?ki](src/algorithms/uncategorized/unique-paths) - cofanie, dynamiczne programowanie i przyk?ady oparte na Trójk?cie Pascala
   * `A` [Problem N-Queens](src/algorithms/uncategorized/n-queens)
@@ -172,7 +172,7 @@ znajd? najkrótsze ?cie?ki mi?dzy wszystkimi parami wierzcho?ków
 je?eli zaspokaja wszystkie warunki, tylko wtedy generuje kolejne rozwi?zania. W innym wypadku, cofa sie, i pod??a inna ?cie?ka znale?enia rozwi?zania. Zazwyczaj, u?ywane jest przej?cie przez Przeszukiwania W G??b(DFS) przestrzeni stanów.
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `B` [Unikatowe Scie?ki](src/algorithms/uncategorized/unique-paths)
-  * `A` [Cykl Hamiltoniana](src/algorithms/graph/hamiltonian-cycle) - Visit every vertex exactly once
+  * `A` [Cykl Hamiltoniana](src/algorithms/graph/hamiltonian-cycle) - Odwied? ka?dy wierzcho?ek dok?adnie raz
   * `A` [Problem N-Queens](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
   * `A` [Zestaw Sumy](src/algorithms/sets/combination-sum) - znajduje wszystkie zestawy które tworz? okre?lon? sum?
@@ -253,7 +253,7 @@ Poni?ej umieszczamy list? najbardziej u?ywanych Big O notacji i ich porównania w
 | **Kolejka**               | n         | n         | 1         | 1         |           |
 | **Lista Powi?zana**         | n         | n         | 1         | 1         |           |
 | **Tablica funkcji mieszanej**          | -         | n         | n         | n         | W wypadku idealnej funkcji skrótu koszt móg?by sie równa? O(1) |
-| **Binarne Drzewo Poszukiwa?**  | n         | n         | n         | n         | In case of balanced tree costs would be O(log(n)) |
+| **Binarne Drzewo Poszukiwa?**  | n         | n         | n         | n         | W przypadku zrównowa?onych kosztów drzew by?oby O(log(n)) |
 | **B-Drzewo**              | log(n)    | log(n)    | log(n)    | log(n)    |           |
 | **Drzewa czerwono-czarne**      | log(n)    | log(n)    | log(n)    | log(n)    |           |
 | **AVL Drzewo**            | log(n)    | log(n)    | log(n)    | log(n)    |           |
